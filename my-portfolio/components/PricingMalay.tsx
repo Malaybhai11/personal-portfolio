@@ -93,7 +93,7 @@ const PricingMalay = () => {
             try {
                 const res = await fetch("https://ipapi.co/json/");
                 const data = await res.json();
-                if (data.country_code === "IN") {
+                if (data.country_code !== "IN") {
                     setCurrency("USD");
                     setCurrencySymbol("$");
                     // Approximate conversion rate, can be dynamic but static is safer for display consistency
