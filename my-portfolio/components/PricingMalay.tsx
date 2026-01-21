@@ -18,7 +18,6 @@ const PricingMalay = () => {
                 "3-5 Pages",
                 "Mobile Responsive Design",
                 "Contact Form",
-                "Google Maps Integration",
                 "Basic SEO Setup",
                 "WhatsApp / Call Button",
                 "Optional Admin Panel",
@@ -98,7 +97,7 @@ const PricingMalay = () => {
                     setCurrency("USD");
                     setCurrencySymbol("$");
                     // Approximate conversion rate, can be dynamic but static is safer for display consistency
-                    setExchangeRate(0.012);
+                    setExchangeRate(1.940);
                 }
             } catch (error) {
                 console.error("Failed to fetch location, defaulting to INR", error);
