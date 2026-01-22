@@ -258,11 +258,6 @@ const PricingMalay = () => {
 
                 </div>
 
-                <div className="mt-16 text-center text-sm text-gray-400">
-                    Final pricing depends on complexity and customization level. <br />
-                    Exchange rate calculated at approx $1 = ₹90 for international clients.
-                </div>
-
             </div>
         </section>
     );
