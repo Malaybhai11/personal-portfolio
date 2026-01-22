@@ -121,7 +121,7 @@ const HeroSecMalay = () => {
                     </h2>
                     <span className="hidden md:inline-block h-[1px] w-12 bg-white/50"></span>
                     <span className="hidden md:inline-block text-[10px] font-medium tracking-widest uppercase text-blue-400">
-                        Converting Visitors <br /> into Customers
+                        Let's Convert Your Visitors <br /> into Customers
                     </span>
                 </div>
             </motion.div>
